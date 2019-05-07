@@ -4,8 +4,8 @@ const git = require('simple-git')(gitWorkingDir)
 git
     // make sure we see something while it works
     .outputHandler((command, stdout, stderr) => {
-        stdout.pipe(process.stdout);
-        stderr.pipe(process.stderr);
+        stdout.pipe(process.stdout)
+        stderr.pipe(process.stderr)
     })
 
     // make sure we're in develop

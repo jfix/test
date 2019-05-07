@@ -17,10 +17,13 @@ git
     // move to master for merge
     .checkout('master')
     .pull()
+
+    // user merge strategy and options that resolve any conflicts
+    // in favour of `develop`
     .merge(['-srecursive', '-Xtheirs', 'develop'])
     .add('./*')
     .commit('merge develop with master')
     .push('origin', 'master')
 
-    // switch back to develop
+    // switch back to develop, for future work (ha ha ha!)
     .checkout('develop')

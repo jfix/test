@@ -4,17 +4,28 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Landscaping!</title>
-        <meta name="description" content="This page is to demonstrate how a landscape image works.">
+        <meta name="description" content="(Generic) This page is to demonstrate how a landscape image works.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="twitter:card" content="summary_large_image">
+        <meta name="og:type" content="book"><!-- could also be article, profile, video.*, music.*, or, as a fallback: website -->
+        
         <meta name="twitter:site" content="@oecd" />
-        <meta name="twitter:title" content="Cool title for landscaping" />
-        <meta name="twitter:description" content="This page is to demonstrate how a landscape image would be displayed." />
+        <meta name="og:url" content="https://jfix.github.io/test/landscape.html" />
+
+        <meta name="twitter:title" content="(Twitter) Cool title for landscaping" />
+        <meta name="og:title" content="(OpenGraph) Cool title for landscaping" />
+        
+        <meta name="twitter:description" content="(Twitter) This page is to demonstrate how a landscape image would be displayed." />
+        <meta name="og:description" content="(OpenGraph) This page is to demonstrate how a landscape image would be displayed." />
+        
         <meta name="twitter:image" content="https://jfix.github.io/test/landscape.jpeg"/>
-        <meta name="twitter:image:alt" content="A landscape image"/>
+        <meta name="og:image" content="https://jfix.github.io/test/landscape.jpeg"/>
+        <meta name="og:image:height" content="500"/>
+        <meta name="og:image:width" content="1000"/>
+        <meta name="twitter:image:alt" content="(Twitter) A landscape image"/>
     </head>
     <body>
-        <p>Landscape page with large twitter summary card.</p>
+        <p>Landscape page with large twitter summary card (now with support for OpenGraph).</p>
     </body>
 </html>

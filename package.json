@@ -4,7 +4,7 @@
   "description": "",
   "main": "auto-merge.js",
   "dependencies": {
-    "simple-git": "^1.112.0"
+    "simple-git": "^3.15.0"
   },
   "devDependencies": {},
   "scripts": {
